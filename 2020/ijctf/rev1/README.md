@@ -70,6 +70,7 @@ Do you want to print 6073 lines? (y/N) y
 │           0x08049113      a3f0c11f08     mov dword [0x81fc1f0], eax  ; [0x81fc1f0:4]=0
 │           0x08049118      8915f4c11f08   mov dword [0x81fc1f4], edx  ; [0x81fc1f4:4]=0
 │           0x0804911e      b800000000     mov eax, 0
+...
 ```
 It appeares to be **movfuscated binary**: _"the M/o/Vfuscator (short 'o', sounds like "mobfuscator") compiles programs into "mov" instructions, and only "mov" instructions"_ (https://github.com/xoreaxeaxeax/movfuscator).
 
@@ -108,7 +109,7 @@ while [ "${FLAG: -1}" != '}' ]; do
 done
 ```
 
-[![asciicast](https://asciinema.org/a/324982.svg)](https://asciinema.org/a/324982)
+<script id="asciicast-324982" src="https://asciinema.org/a/324982.js" async></script>
 
 And that's the flag :D
 ```
