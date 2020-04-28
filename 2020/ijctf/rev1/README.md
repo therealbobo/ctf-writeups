@@ -109,7 +109,7 @@ while [ "${FLAG: -1}" != '}' ]; do
 done
 ```
 
-<script id="asciicast-324982" src="https://asciinema.org/a/324982.js" async></script>
+![alt text](https://github.com/therealbobo/ctf-writeups/raw/master/2020/ijctf/rev1/demo.gif "demo gif")
 
 And that's the flag :D
 ```
